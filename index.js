@@ -1,9 +1,9 @@
 
 'use strict';
 
-var React = require('react');
-var ReactNative = require('react-native');
-var {
+import React, { PropTypes } from 'react';
+
+import { 
     StyleSheet,
     Text,
     View,
@@ -11,7 +11,7 @@ var {
     Modal,
     PickerIOS,
     Dimensions
-} = ReactNative ;
+} from 'react-native';
 
 var PickerItemIOS = PickerIOS.Item;
 
